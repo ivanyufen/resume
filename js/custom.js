@@ -40,15 +40,15 @@
 		    window.location.hash = hash;
 		  });
 		});
-		$("#pb-navbar ul li a[href^='#']").on('click', function(e){
-			if ( navToggler.is(':visible') ) {
-		  	navToggler.click();
-		  }
-		});
+		// $("#pb-navbar ul li a[href^='#']").on('click', function(e){
+		// 	if ( navToggler.is(':visible') ) {
+		//   	navToggler.click();
+		//   }
+		// });
 
-		$('body').on('activate.bs.scrollspy', function () {
-		  console.log('nice');
-		})
+		// $('body').on('activate.bs.scrollspy', function () {
+		//   console.log('nice');
+		// })
 	};
 	
 
